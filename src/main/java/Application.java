@@ -11,7 +11,7 @@ public class Application {
         Lab comparisons = new Lab();
 
         System.out.println("Currently, isEqual produces the following value for '4 is equal to 4':");
-        boolean result11 = comparisons.isEqual(4,4);
+        boolean result11 = comparisons.isEqual(5,4);
         System.out.println(result11);
 
         System.out.println("Currently, isEqual produces the following value for '2 is equal to 7':");
@@ -19,7 +19,7 @@ public class Application {
         System.out.println(result12);
 
         System.out.println("Currently, greaterThan produces the following value for '5 is greater than 3':");
-        boolean result21 = comparisons.greaterThan(5,3);
+        boolean result21 = comparisons.greaterThan(3,5);
         System.out.println(result21);
 
         System.out.println("Currently, greaterThan produces the following value for '4 is greater than 9':");
